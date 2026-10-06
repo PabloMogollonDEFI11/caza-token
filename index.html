@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>$CAZA — No te cacen. Caza.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#060a08;
+    --bg-panel:#0b120e;
+    --bg-panel-2:#0e1712;
+    --line:#1c2b22;
+    --green:#39ff8f;
+    --green-dim:#1f8a52;
+    --amber:#ffb84d;
+    --red:#ff5b5b;
+    --ink:#d7ebdf;
+    --ink-muted:#7fa090;
+    --ink-faint:#4d6457;
+    color-scheme: dark;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:
+      radial-gradient(ellipse 900px 500px at 50% -10%, rgba(57,255,143,0.08), transparent 60%),
+      repeating-linear-gradient(0deg, rgba(57,255,143,0.025) 0px, rgba(57,255,143,0.025) 1px, transparent 1px, transparent 3px),
+      var(--bg);
+    color:var(--ink);
+    font-family:'JetBrains Mono', ui-monospace, monospace;
+    -webkit-font-smoothing:antialiased;
+    padding-inline:16px;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding-block:40px 80px;}
+
+  .crosshair{
+    width:56px;height:56px;margin:0 auto 18px;position:relative;
+    border:2px solid var(--green);border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 0 24px rgba(57,255,143,0.35);
+  }
+  .crosshair::before,.crosshair::after{
+    content:'';position:absolute;background:var(--green);
+  }
+  .crosshair::before{width:2px;height:70px;top:-7px;}
+  .crosshair::after{width:70px;height:2px;left:-7px;}
+  .crosshair .dot{width:6px;height:6px;border-radius:50%;background:var(--green);}
+
+  header{text-align:center;margin-bottom:36px;}
+  .ticker{
+    font-family:'Space Grotesk',sans-serif;font-weight:700;
+    font-size:clamp(2.4rem,9vw,3.6rem);letter-spacing:1px;
+    color:var(--green);margin:0;
+    text-shadow:0 0 30px rgba(57,255,143,0.25);
+  }
+  .ticker span{color:var(--ink-faint);font-size:0.5em;vertical-align:middle;}
+  .tagline{color:var(--ink-muted);font-size:1.05rem;margin-top:6px;letter-spacing:0.5px;}
+
+  .pill-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px;}
+  .pill{
+    border:1px solid var(--line);background:var(--bg-panel);
+    color:var(--ink-muted);padding:7px 14px;border-radius:999px;
+    font-size:0.75rem;text-decoration:none;display:flex;align-items:center;gap:6px;
+    transition:border-color .15s, color .15s;
+  }
+  .pill:hover{border-color:var(--green-dim);color:var(--ink);}
+  .pill b{color:var(--green);}
+
+  section{margin-top:34px;}
+  .card{
+    background:linear-gradient(180deg,var(--bg-panel),var(--bg-panel-2));
+    border:1px solid var(--line);border-radius:14px;overflow:hidden;
+  }
+  .card-head{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:14px 18px;border-bottom:1px solid var(--line);
+  }
+  .card-head h2{font-family:'Space Grotesk',sans-serif;font-size:0.95rem;margin:0;color:var(--ink);letter-spacing:0.3px;}
+  .live-dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green);animation:pulse 1.6s infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.35;}}
+  .live-label{display:flex;align-items:center;gap:7px;font-size:0.7rem;color:var(--ink-muted);text-transform:uppercase;letter-spacing:1px;}
+
+  .feed{list-style:none;margin:0;padding:0;max-height:420px;overflow-y:auto;}
+  .feed li{
+    display:flex;justify-content:space-between;gap:12px;
+    padding:12px 18px;border-bottom:1px solid var(--line);font-size:0.86rem;
+  }
+  .feed li:last-child{border-bottom:none;}
+  .feed .name{color:var(--ink);font-weight:500;}
+  .feed .sym{color:var(--green-dim);margin-left:8px;}
+  .feed .time{color:var(--ink-faint);white-space:nowrap;}
+  .feed .badge{
+    display:inline-block;margin-right:10px;color:var(--amber);font-size:0.72rem;
+    border:1px solid rgba(255,184,77,0.3);padding:1px 6px;border-radius:5px;
+  }
+  .empty-state{padding:30px 18px;text-align:center;color:var(--ink-faint);font-size:0.85rem;}
+
+  .disclaimer{
+    font-size:0.76rem;color:var(--ink-faint);line-height:1.6;
+    border-left:2px solid var(--amber);padding:12px 16px;background:rgba(255,184,77,0.05);
+    border-radius:0 8px 8px 0;
+  }
+  .disclaimer b{color:var(--amber);}
+
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  @media(max-width:520px){.grid2{grid-template-columns:1fr;}}
+  .stat{
+    background:var(--bg-panel);border:1px solid var(--line);border-radius:12px;
+    padding:16px 18px;
+  }
+  .stat .label{font-size:0.7rem;color:var(--ink-faint);text-transform:uppercase;letter-spacing:1px;}
+  .stat .value{font-family:'Space Grotesk',sans-serif;font-size:1.3rem;color:var(--ink);margin-top:4px;}
+
+  p.lead{color:var(--ink-muted);font-size:0.92rem;line-height:1.7;}
+
+  .ca-box{
+    display:flex;gap:8px;align-items:center;background:var(--bg-panel);
+    border:1px solid var(--line);border-radius:10px;padding:10px 12px;
+    font-size:0.78rem;color:var(--ink-muted);
+  }
+  .ca-box code{color:var(--ink);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .copy-btn{
+    background:var(--green-dim);color:#06120b;border:none;border-radius:6px;
+    padding:6px 10px;font-size:0.72rem;font-weight:700;cursor:pointer;font-family:inherit;
+  }
+  .copy-btn:active{transform:scale(0.96);}
+
+  footer{margin-top:50px;text-align:center;color:var(--ink-faint);font-size:0.72rem;line-height:1.8;}
+  footer a{color:var(--ink-muted);}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="crosshair"><div class="dot"></div></div>
+    <h1 class="ticker">$CAZA <span>/ caza</span></h1>
+    <p class="tagline">Que no te cacen. ¡Caza!!!</p>
+
+    <div class="pill-row">
+      <a class="pill" href="#" id="pumpLink">🎯 <b>Ver en pump.fun</b></a>
+      <a class="pill" href="#" id="xLink">𝕏 Seguir</a>
+      <span class="pill">⛓ Solana</span>
+    </div>
+  </header>
+
+  <section>
+    <p class="lead">
+      <b style="color:var(--ink)">Cazador</b> es un bot real que vigila pump.fun 24/7, buscando tokens que
+      superan un filtro de liquidez y actividad temprana (<b style="color:var(--green)">1,5x&nbsp;/&nbsp;8&nbsp;tx</b>).
+      Esto de abajo es su radar — en directo, con 12 minutos de retardo para no filtrar la señal a otros bots.
+    </p>
+  </section>
+
+  <section class="card">
+    <div class="card-head">
+      <h2>📡 Radar de Cazador</h2>
+      <div class="live-label"><span class="live-dot"></span> Retardo 12 min</div>
+    </div>
+    <ul class="feed" id="feedList">
+      <li class="empty-state">Cargando detecciones…</li>
+    </ul>
+  </section>
+
+  <section class="disclaimer">
+    <b>Importante:</b> Cazador opera en fase de <b>simulación y aprendizaje</b>, sin capital real.
+    Este radar muestra únicamente los tokens que el filtro detecta — <b>no es un historial de trading,
+    no implica rentabilidad ni garantía alguna</b>. $CAZA es un experimento especulativo de alto riesgo,
+    no es asesoramiento financiero.
+  </section>
+
+  <section class="grid2">
+    <div class="stat">
+      <div class="label">Filtro de Cazador</div>
+      <div class="value">1,5x / 8 tx</div>
+    </div>
+    <div class="stat">
+      <div class="label">Reparto a holders</div>
+      <div class="value">Fees → comunidad*</div>
+    </div>
+  </section>
+
+  <section>
+    <p class="lead" style="font-size:0.82rem;">
+      *Las comisiones de creador generadas por $CAZA en pump.fun se reparten periódicamente entre
+      holders, a discreción del equipo — sin porcentaje fijo garantizado. Anunciado en 𝕏 cada vez que ocurra.
+    </p>
+  </section>
+
+  <section>
+    <div class="ca-box">
+      <span>CA:</span>
+      <code id="caText">se publica al lanzar</code>
+      <button class="copy-btn" id="copyBtn">Copiar</button>
+    </div>
+  </section>
+
+  <footer>
+    $CAZA es un token especulativo sin respaldo ni promesa de rendimiento. Alto riesgo de pérdida total.<br>
+    No es un producto financiero regulado. Haz tu propia investigación (DYOR).
+  </footer>
+
+</div>
+
+<script>
+  const FEED_URL = 'feed.json';
+  const REFRESH_MS = 30000;
+
+  function timeAgo(tsStr){
+    const ts = new Date(tsStr.replace(' ', 'T'));
+    const diffMin = Math.round((Date.now() - ts.getTime()) / 60000);
+    if (diffMin < 1) return 'justo ahora';
+    if (diffMin < 60) return `hace ${diffMin} min`;
+    const h = Math.floor(diffMin/60);
+    return `hace ${h}h ${diffMin % 60}min`;
+  }
+
+  async function loadFeed(){
+    const list = document.getElementById('feedList');
+    try{
+      const res = await fetch(FEED_URL, {cache:'no-store'});
+      if(!res.ok) throw new Error('feed no disponible');
+      const data = await res.json();
+      const items = data.detections || [];
+      if(items.length === 0){
+        list.innerHTML = '<li class="empty-state">Sin detecciones aún en esta ventana. Cazador sigue vigilando…</li>';
+        return;
+      }
+      list.innerHTML = items.map(d => `
+        <li>
+          <span><span class="badge">1,5x/8tx</span><span class="name">${escapeHtml(d.nombre)}</span><span class="sym">${escapeHtml(d.simbolo)}</span></span>
+          <span class="time">${timeAgo(d.ts)}</span>
+        </li>
+      `).join('');
+    }catch(e){
+      list.innerHTML = '<li class="empty-state">Radar iniciando… vuelve en unos minutos.</li>';
+    }
+  }
+
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  document.getElementById('copyBtn').addEventListener('click', async () => {
+    const text = document.getElementById('caText').textContent;
+    try{
+      await navigator.clipboard.writeText(text);
+      const btn = document.getElementById('copyBtn');
+      const orig = btn.textContent;
+      btn.textContent = 'Copiado ✓';
+      setTimeout(() => btn.textContent = orig, 1500);
+    }catch(e){ /* clipboard no disponible, se ignora */ }
+  });
+
+  loadFeed();
+  setInterval(loadFeed, REFRESH_MS);
+</script>
+</body>
+</html>

@@ -1,0 +1,256 @@
+{
+  "updated_at": "2026-10-06 15:08:05",
+  "delay_min": 12,
+  "detections": [
+    {
+      "ts": "2026-10-06 07:01:24",
+      "nombre": "Super Agency",
+      "simbolo": "AGENCY"
+    },
+    {
+      "ts": "2026-09-30 03:09:17",
+      "nombre": "F*ck Cancer",
+      "simbolo": "FKCANCER"
+    },
+    {
+      "ts": "2026-09-30 01:11:30",
+      "nombre": "OpenAI",
+      "simbolo": "OpenAI"
+    },
+    {
+      "ts": "2026-09-29 23:00:53",
+      "nombre": "Non Pepe Character",
+      "simbolo": "NPC"
+    },
+    {
+      "ts": "2026-09-29 21:17:02",
+      "nombre": "MW4 10.23.2026",
+      "simbolo": "CoD MW4"
+    },
+    {
+      "ts": "2026-09-29 19:53:45",
+      "nombre": "dots",
+      "simbolo": "DOTS"
+    },
+    {
+      "ts": "2026-09-14 04:22:08",
+      "nombre": "Earless Hachimi",
+      "simbolo": "HACHIMI"
+    },
+    {
+      "ts": "2026-09-12 21:18:48",
+      "nombre": "PUMPCAT",
+      "simbolo": "PUMPCAT"
+    },
+    {
+      "ts": "2026-09-12 18:00:21",
+      "nombre": "Neko Chan",
+      "simbolo": "NEKO"
+    },
+    {
+      "ts": "2026-09-12 14:36:29",
+      "nombre": "Whirlpool",
+      "simbolo": "POOL"
+    },
+    {
+      "ts": "2026-09-12 09:22:36",
+      "nombre": "revolve",
+      "simbolo": "revolve"
+    },
+    {
+      "ts": "2026-09-12 06:21:05",
+      "nombre": "ALL DOG",
+      "simbolo": "ALLDOG"
+    },
+    {
+      "ts": "2026-09-12 06:18:19",
+      "nombre": "John Ternus",
+      "simbolo": "JOHN"
+    },
+    {
+      "ts": "2026-09-12 00:35:53",
+      "nombre": "allcat",
+      "simbolo": "ALLCAT"
+    },
+    {
+      "ts": "2026-09-11 22:20:40",
+      "nombre": "Robinhood",
+      "simbolo": "HOOD"
+    },
+    {
+      "ts": "2026-09-11 21:26:15",
+      "nombre": "Robinhood",
+      "simbolo": "HOOD"
+    },
+    {
+      "ts": "2026-09-11 20:58:16",
+      "nombre": "SOLAMA",
+      "simbolo": "SOLAMA"
+    },
+    {
+      "ts": "2026-09-11 20:30:24",
+      "nombre": "Robinhood",
+      "simbolo": "HOOD"
+    },
+    {
+      "ts": "2026-09-11 20:09:27",
+      "nombre": "It’s called “Meme-fi”.",
+      "simbolo": "Meme-fi"
+    },
+    {
+      "ts": "2026-09-11 19:49:35",
+      "nombre": "PONS CANDLE",
+      "simbolo": "PONSCANDLE"
+    },
+    {
+      "ts": "2026-09-11 19:48:53",
+      "nombre": "Amazoon",
+      "simbolo": "Amazoon"
+    },
+    {
+      "ts": "2026-09-10 23:18:13",
+      "nombre": "bnbcat",
+      "simbolo": "bnbcat"
+    },
+    {
+      "ts": "2026-09-10 23:13:54",
+      "nombre": "Meowcraft",
+      "simbolo": "Meowcraft"
+    },
+    {
+      "ts": "2026-09-10 13:53:29",
+      "nombre": "Solana Chan",
+      "simbolo": "SOLCHAN"
+    },
+    {
+      "ts": "2026-09-10 13:30:43",
+      "nombre": "ASSDAQ",
+      "simbolo": "ASSDAQ"
+    },
+    {
+      "ts": "2026-09-10 13:30:24",
+      "nombre": "Anonymous Jeff",
+      "simbolo": "ZEPSTEIN"
+    },
+    {
+      "ts": "2026-09-10 13:10:24",
+      "nombre": "caton",
+      "simbolo": "caton"
+    },
+    {
+      "ts": "2026-09-10 11:30:56",
+      "nombre": "anonymouspons",
+      "simbolo": "ANONYMPONS"
+    },
+    {
+      "ts": "2026-09-10 10:29:15",
+      "nombre": "FANTASY INDEX 6900",
+      "simbolo": "FIX6900"
+    },
+    {
+      "ts": "2026-09-08 10:33:02",
+      "nombre": "xStonk",
+      "simbolo": "xStonk"
+    },
+    {
+      "ts": "2026-09-08 03:22:56",
+      "nombre": "SPACEBALLS",
+      "simbolo": "SPACEBALLS"
+    },
+    {
+      "ts": "2026-09-08 03:21:21",
+      "nombre": "Meowgan Stanley",
+      "simbolo": "MEOWGN"
+    },
+    {
+      "ts": "2026-09-07 15:30:19",
+      "nombre": "PumpFun Index Fund 6900",
+      "simbolo": "PFI6900"
+    },
+    {
+      "ts": "2026-09-07 14:55:20",
+      "nombre": "Cutecat",
+      "simbolo": "Cutecat"
+    },
+    {
+      "ts": "2026-09-07 14:41:50",
+      "nombre": "zcatonfone",
+      "simbolo": "zcatfone"
+    },
+    {
+      "ts": "2026-09-07 14:40:46",
+      "nombre": "Cutecat",
+      "simbolo": "Cutecat"
+    },
+    {
+      "ts": "2026-09-07 14:28:17",
+      "nombre": "Tesloth",
+      "simbolo": "TESLOTH"
+    },
+    {
+      "ts": "2026-09-07 13:14:31",
+      "nombre": "BABY HACHI AI",
+      "simbolo": "HACHI"
+    },
+    {
+      "ts": "2026-09-07 12:25:07",
+      "nombre": "Anonymouse",
+      "simbolo": "Anonymouse"
+    },
+    {
+      "ts": "2026-09-07 12:12:51",
+      "nombre": "NasDonk",
+      "simbolo": "NASDONK"
+    },
+    {
+      "ts": "2026-09-07 12:00:32",
+      "nombre": "CashPONS",
+      "simbolo": "CASHPONS"
+    },
+    {
+      "ts": "2026-09-07 11:54:20",
+      "nombre": "Poop Pons",
+      "simbolo": "POOPPONS"
+    },
+    {
+      "ts": "2026-09-07 11:43:14",
+      "nombre": "Woobi",
+      "simbolo": "Woobi"
+    },
+    {
+      "ts": "2026-09-07 11:37:33",
+      "nombre": "Anonymouse",
+      "simbolo": "Anonymouse"
+    },
+    {
+      "ts": "2026-09-07 11:12:17",
+      "nombre": "VibeCat",
+      "simbolo": "VibeCat"
+    },
+    {
+      "ts": "2026-09-07 10:52:27",
+      "nombre": "NVIDOG",
+      "simbolo": "NVIDOG"
+    },
+    {
+      "ts": "2026-09-07 10:41:49",
+      "nombre": "Anonymous Wojak",
+      "simbolo": "ZWOJAK"
+    },
+    {
+      "ts": "2026-09-07 10:41:24",
+      "nombre": "Jet Cat",
+      "simbolo": "JETCAT"
+    },
+    {
+      "ts": "2026-09-07 10:20:46",
+      "nombre": "NVIDOG",
+      "simbolo": "NVIDOG"
+    },
+    {
+      "ts": "2026-09-07 10:06:51",
+      "nombre": "Nascat",
+      "simbolo": "NASCAT"
+    }
+  ]
+}
