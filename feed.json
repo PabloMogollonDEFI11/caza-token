@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-20 13:17:24",
+  "updated_at": "2026-10-20 14:35:30",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-20 14:23:18",
+      "nombre": "Physical Inu",
+      "simbolo": "PI"
+    },
     {
       "ts": "2026-10-20 13:04:38",
       "nombre": "CAPDOG",
@@ -246,11 +251,6 @@
       "ts": "2026-09-07 11:37:33",
       "nombre": "Anonymouse",
       "simbolo": "Anonymouse"
-    },
-    {
-      "ts": "2026-09-07 11:12:17",
-      "nombre": "VibeCat",
-      "simbolo": "VibeCat"
     }
   ]
 }
