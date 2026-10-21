@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-21 09:13:09",
+  "updated_at": "2026-10-21 09:33:17",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-21 09:20:34",
+      "nombre": "Official Barron Coin",
+      "simbolo": "BARRON"
+    },
     {
       "ts": "2026-10-21 09:00:48",
       "nombre": "Clout",
@@ -246,11 +251,6 @@
       "ts": "2026-09-07 13:14:31",
       "nombre": "BABY HACHI AI",
       "simbolo": "HACHI"
-    },
-    {
-      "ts": "2026-09-07 12:25:07",
-      "nombre": "Anonymouse",
-      "simbolo": "Anonymouse"
     }
   ]
 }
