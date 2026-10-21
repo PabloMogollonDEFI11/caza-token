@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-21 19:38:26",
+  "updated_at": "2026-10-21 21:56:35",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-21 21:43:50",
+      "nombre": "Google Gemini",
+      "simbolo": "Gemini"
+    },
     {
       "ts": "2026-10-21 19:25:30",
       "nombre": "ShadowPrivacy",
@@ -246,11 +251,6 @@
       "ts": "2026-09-08 10:33:02",
       "nombre": "xStonk",
       "simbolo": "xStonk"
-    },
-    {
-      "ts": "2026-09-08 03:22:56",
-      "nombre": "SPACEBALLS",
-      "simbolo": "SPACEBALLS"
     }
   ]
 }
