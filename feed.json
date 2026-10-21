@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-22 00:09:47",
+  "updated_at": "2026-10-22 01:35:53",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-22 01:23:25",
+      "nombre": "ChatGPT",
+      "simbolo": "ChatGPT"
+    },
     {
       "ts": "2026-10-21 23:57:27",
       "nombre": "Official Barron Coin",
@@ -246,11 +251,6 @@
       "ts": "2026-09-10 13:10:24",
       "nombre": "caton",
       "simbolo": "caton"
-    },
-    {
-      "ts": "2026-09-10 11:30:56",
-      "nombre": "anonymouspons",
-      "simbolo": "ANONYMPONS"
     }
   ]
 }
