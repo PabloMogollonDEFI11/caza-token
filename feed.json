@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-21 17:32:07",
+  "updated_at": "2026-10-21 18:11:13",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-21 17:59:00",
+      "nombre": "SpaceCoin",
+      "simbolo": "SPACE"
+    },
     {
       "ts": "2026-10-21 17:19:09",
       "nombre": "Groyper",
@@ -246,11 +251,6 @@
       "ts": "2026-09-07 15:30:19",
       "nombre": "PumpFun Index Fund 6900",
       "simbolo": "PFI6900"
-    },
-    {
-      "ts": "2026-09-07 14:55:20",
-      "nombre": "Cutecat",
-      "simbolo": "Cutecat"
     }
   ]
 }
