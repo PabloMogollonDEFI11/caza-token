@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-22 01:35:53",
+  "updated_at": "2026-10-22 03:10:58",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-22 02:58:41",
+      "nombre": "Lovot",
+      "simbolo": "Lovot"
+    },
     {
       "ts": "2026-10-22 01:23:25",
       "nombre": "ChatGPT",
@@ -246,11 +251,6 @@
       "ts": "2026-09-10 13:30:24",
       "nombre": "Anonymous Jeff",
       "simbolo": "ZEPSTEIN"
-    },
-    {
-      "ts": "2026-09-10 13:10:24",
-      "nombre": "caton",
-      "simbolo": "caton"
     }
   ]
 }
