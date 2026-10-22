@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-22 18:04:25",
+  "updated_at": "2026-10-22 18:17:32",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-22 18:05:00",
+      "nombre": "tinfoilcat",
+      "simbolo": "tinfoilcat"
+    },
     {
       "ts": "2026-10-22 17:51:42",
       "nombre": "The Meme King",
@@ -246,11 +251,6 @@
       "ts": "2026-09-12 14:36:29",
       "nombre": "Whirlpool",
       "simbolo": "POOL"
-    },
-    {
-      "ts": "2026-09-12 09:22:36",
-      "nombre": "revolve",
-      "simbolo": "revolve"
     }
   ]
 }
