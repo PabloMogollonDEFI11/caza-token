@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-23 12:14:50",
+  "updated_at": "2026-10-23 12:37:58",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-23 12:25:41",
+      "nombre": "The Playful Cub",
+      "simbolo": "Martin"
+    },
     {
       "ts": "2026-10-23 12:02:40",
       "nombre": "Pepe the Prophet",
@@ -246,11 +251,6 @@
       "ts": "2026-10-20 01:00:38",
       "nombre": "cogecoin",
       "simbolo": "coge"
-    },
-    {
-      "ts": "2026-10-06 07:01:24",
-      "nombre": "Super Agency",
-      "simbolo": "AGENCY"
     }
   ]
 }
