@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-23 13:05:04",
+  "updated_at": "2026-10-23 13:59:09",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-23 13:46:55",
+      "nombre": "Princess Robot Bubblegum",
+      "simbolo": "PRB"
+    },
     {
       "ts": "2026-10-23 12:52:15",
       "nombre": "Claude",
@@ -246,11 +251,6 @@
       "ts": "2026-10-20 11:40:44",
       "nombre": "The Fallen Airman",
       "simbolo": "IAN"
-    },
-    {
-      "ts": "2026-10-20 07:24:17",
-      "nombre": "ORYN",
-      "simbolo": "ORYN"
     }
   ]
 }
