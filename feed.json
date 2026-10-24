@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-24 17:16:08",
+  "updated_at": "2026-10-24 19:58:16",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-24 19:45:51",
+      "nombre": "OtterDacity",
+      "simbolo": "OTTERDAC"
+    },
     {
       "ts": "2026-10-24 17:04:07",
       "nombre": "Anthropic",
@@ -246,11 +251,6 @@
       "ts": "2026-10-21 19:25:30",
       "nombre": "ShadowPrivacy",
       "simbolo": "SHADOW"
-    },
-    {
-      "ts": "2026-10-21 18:09:58",
-      "nombre": "MOON COIN",
-      "simbolo": "MC"
     }
   ]
 }
