@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-24 04:45:15",
+  "updated_at": "2026-10-24 05:52:23",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-24 05:40:03",
+      "nombre": "ELON",
+      "simbolo": "ELON"
+    },
     {
       "ts": "2026-10-24 04:33:11",
       "nombre": "Claude",
@@ -246,11 +251,6 @@
       "ts": "2026-10-21 09:20:34",
       "nombre": "Official Barron Coin",
       "simbolo": "BARRON"
-    },
-    {
-      "ts": "2026-10-21 09:00:48",
-      "nombre": "Clout",
-      "simbolo": "Clout"
     }
   ]
 }
