@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-24 20:33:24",
+  "updated_at": "2026-10-24 20:41:28",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-24 20:29:00",
+      "nombre": "ChatGPT",
+      "simbolo": "ChatGPT"
+    },
     {
       "ts": "2026-10-24 20:21:17",
       "nombre": "PigDeal",
@@ -246,11 +251,6 @@
       "ts": "2026-10-21 23:45:54",
       "nombre": "Nutcoin",
       "simbolo": "NUTCOIN"
-    },
-    {
-      "ts": "2026-10-21 21:43:50",
-      "nombre": "Google Gemini",
-      "simbolo": "Gemini"
     }
   ]
 }
