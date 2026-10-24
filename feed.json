@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-24 03:02:08",
+  "updated_at": "2026-10-24 04:45:15",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-24 04:33:11",
+      "nombre": "Claude",
+      "simbolo": "Claude AI"
+    },
     {
       "ts": "2026-10-24 02:49:38",
       "nombre": "YouTube",
@@ -246,11 +251,6 @@
       "ts": "2026-10-21 09:00:48",
       "nombre": "Clout",
       "simbolo": "Clout"
-    },
-    {
-      "ts": "2026-10-21 04:02:09",
-      "nombre": "ChatGPT-6",
-      "simbolo": "OpenAI"
     }
   ]
 }
