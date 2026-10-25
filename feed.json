@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-25 03:42:36",
+  "updated_at": "2026-10-25 08:54:47",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-25 08:42:01",
+      "nombre": "THE MERGE",
+      "simbolo": "MERGE"
+    },
     {
       "ts": "2026-10-25 03:30:24",
       "nombre": "BMW",
@@ -246,11 +251,6 @@
       "ts": "2026-10-22 01:23:25",
       "nombre": "ChatGPT",
       "simbolo": "ChatGPT"
-    },
-    {
-      "ts": "2026-10-21 23:57:27",
-      "nombre": "Official Barron Coin",
-      "simbolo": "BARRON"
     }
   ]
 }
