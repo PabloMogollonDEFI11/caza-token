@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-24 20:41:28",
+  "updated_at": "2026-10-25 03:42:36",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-25 03:30:24",
+      "nombre": "BMW",
+      "simbolo": "BMW"
+    },
     {
       "ts": "2026-10-24 20:29:00",
       "nombre": "ChatGPT",
@@ -246,11 +251,6 @@
       "ts": "2026-10-21 23:57:27",
       "nombre": "Official Barron Coin",
       "simbolo": "BARRON"
-    },
-    {
-      "ts": "2026-10-21 23:45:54",
-      "nombre": "Nutcoin",
-      "simbolo": "NUTCOIN"
     }
   ]
 }
