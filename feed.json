@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-25 11:58:13",
+  "updated_at": "2026-10-25 13:11:19",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-25 12:58:56",
+      "nombre": "Gigantic Tits Agency",
+      "simbolo": "GTA"
+    },
     {
       "ts": "2026-10-25 11:45:33",
       "nombre": "Sexy Peachy Cheeks Xposed",
@@ -246,11 +251,6 @@
       "ts": "2026-10-22 12:24:35",
       "nombre": "Shamonda virus",
       "simbolo": "SHAV"
-    },
-    {
-      "ts": "2026-10-22 12:03:44",
-      "nombre": "GSP COIN",
-      "simbolo": "GSP"
     }
   ]
 }
