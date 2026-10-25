@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-25 10:27:59",
+  "updated_at": "2026-10-25 11:49:07",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-25 11:36:45",
+      "nombre": "The Nietzschean Bear",
+      "simbolo": "Bear"
+    },
     {
       "ts": "2026-10-25 10:15:56",
       "nombre": "BOYCOTTPUMPFUN",
@@ -246,11 +251,6 @@
       "ts": "2026-10-22 11:53:46",
       "nombre": "Shamonda virus",
       "simbolo": "SHAV"
-    },
-    {
-      "ts": "2026-10-22 10:26:58",
-      "nombre": "Meta",
-      "simbolo": "Meta"
     }
   ]
 }
