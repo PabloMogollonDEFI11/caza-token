@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-25 09:03:54",
+  "updated_at": "2026-10-25 10:27:59",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-25 10:15:56",
+      "nombre": "BOYCOTTPUMPFUN",
+      "simbolo": "BOYCOTT"
+    },
     {
       "ts": "2026-10-25 08:51:39",
       "nombre": "150ms",
@@ -246,11 +251,6 @@
       "ts": "2026-10-22 10:26:58",
       "nombre": "Meta",
       "simbolo": "Meta"
-    },
-    {
-      "ts": "2026-10-22 02:58:41",
-      "nombre": "Lovot",
-      "simbolo": "Lovot"
     }
   ]
 }
