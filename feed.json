@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-25 11:49:07",
+  "updated_at": "2026-10-25 11:58:13",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-25 11:45:33",
+      "nombre": "Sexy Peachy Cheeks Xposed",
+      "simbolo": "SPCX"
+    },
     {
       "ts": "2026-10-25 11:36:45",
       "nombre": "The Nietzschean Bear",
@@ -246,11 +251,6 @@
       "ts": "2026-10-22 12:03:44",
       "nombre": "GSP COIN",
       "simbolo": "GSP"
-    },
-    {
-      "ts": "2026-10-22 11:53:46",
-      "nombre": "Shamonda virus",
-      "simbolo": "SHAV"
     }
   ]
 }
