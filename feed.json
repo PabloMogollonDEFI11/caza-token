@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-26 20:14:14",
+  "updated_at": "2026-10-27 00:11:19",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-26 23:59:17",
+      "nombre": "Amazon.com, Inc.",
+      "simbolo": "AMAZON"
+    },
     {
       "ts": "2026-10-26 20:01:30",
       "nombre": "KOBECOIN",
@@ -246,11 +251,6 @@
       "ts": "2026-10-22 17:50:37",
       "nombre": "Trench Gang",
       "simbolo": "TRENCHERS"
-    },
-    {
-      "ts": "2026-10-22 17:46:20",
-      "nombre": "Cryptfolio",
-      "simbolo": "Cryptfolio"
     }
   ]
 }
