@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-26 18:40:04",
+  "updated_at": "2026-10-26 19:04:10",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-26 18:51:25",
+      "nombre": "Wizard Cat",
+      "simbolo": "WizardCat"
+    },
     {
       "ts": "2026-10-26 18:27:12",
       "nombre": "NVIDIA",
@@ -246,11 +251,6 @@
       "ts": "2026-10-22 16:26:10",
       "nombre": "Just Unplug It",
       "simbolo": "UNPLUG"
-    },
-    {
-      "ts": "2026-10-22 15:58:43",
-      "nombre": "OpenAI",
-      "simbolo": "OpenAI"
     }
   ]
 }
