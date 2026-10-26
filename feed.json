@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-26 14:49:45",
+  "updated_at": "2026-10-26 15:49:50",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-26 15:37:40",
+      "nombre": "1 Wallet And A Dream",
+      "simbolo": "1"
+    },
     {
       "ts": "2026-10-26 14:37:09",
       "nombre": "Alan",
@@ -246,11 +251,6 @@
       "ts": "2026-10-22 15:23:15",
       "nombre": "SIGMA",
       "simbolo": "SIGMA"
-    },
-    {
-      "ts": "2026-10-22 14:27:38",
-      "nombre": "Monero Fox",
-      "simbolo": "MONROE"
     }
   ]
 }
