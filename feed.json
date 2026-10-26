@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-26 15:49:50",
+  "updated_at": "2026-10-26 16:08:55",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-26 15:56:09",
+      "nombre": "TIC-TAC-TOE by Shaw",
+      "simbolo": "TICTACTOE"
+    },
     {
       "ts": "2026-10-26 15:37:40",
       "nombre": "1 Wallet And A Dream",
@@ -246,11 +251,6 @@
       "ts": "2026-10-22 15:34:36",
       "nombre": "Actually Useless",
       "simbolo": "Au"
-    },
-    {
-      "ts": "2026-10-22 15:23:15",
-      "nombre": "SIGMA",
-      "simbolo": "SIGMA"
     }
   ]
 }
