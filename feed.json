@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-25 20:13:34",
+  "updated_at": "2026-10-26 05:05:46",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-26 04:53:04",
+      "nombre": "MIGHTY ZION ORANGE RANGER",
+      "simbolo": "TRUMP"
+    },
     {
       "ts": "2026-10-25 20:01:19",
       "nombre": "Curves And Kim Everywhere",
@@ -246,11 +251,6 @@
       "ts": "2026-10-22 13:32:27",
       "nombre": "DeepSeek",
       "simbolo": "DeepSeek"
-    },
-    {
-      "ts": "2026-10-22 13:24:39",
-      "nombre": "POW",
-      "simbolo": "POW"
     }
   ]
 }
