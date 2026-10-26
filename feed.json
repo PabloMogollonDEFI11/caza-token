@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-26 05:05:46",
+  "updated_at": "2026-10-26 10:58:59",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-26 10:46:17",
+      "nombre": "NVIDIA",
+      "simbolo": "NVIDIA"
+    },
     {
       "ts": "2026-10-26 04:53:04",
       "nombre": "MIGHTY ZION ORANGE RANGER",
@@ -246,11 +251,6 @@
       "ts": "2026-10-22 13:56:02",
       "nombre": "Bugs Mode",
       "simbolo": "BUGS"
-    },
-    {
-      "ts": "2026-10-22 13:32:27",
-      "nombre": "DeepSeek",
-      "simbolo": "DeepSeek"
     }
   ]
 }
