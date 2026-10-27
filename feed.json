@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-10-27 08:38:38",
+  "updated_at": "2026-10-27 10:39:42",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-10-27 10:27:19",
+      "nombre": "new Nikita",
+      "simbolo": "PETER"
+    },
     {
       "ts": "2026-10-27 08:26:19",
       "nombre": "wienercoin",
@@ -246,11 +251,6 @@
       "ts": "2026-10-22 19:57:38",
       "nombre": "YouTube",
       "simbolo": "YouTube"
-    },
-    {
-      "ts": "2026-10-22 18:08:21",
-      "nombre": "Virtual Trade",
-      "simbolo": "VIRTUAL"
     }
   ]
 }
