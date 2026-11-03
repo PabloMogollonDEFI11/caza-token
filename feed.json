@@ -1,7 +1,17 @@
 {
-  "updated_at": "2026-11-03 12:20:37",
+  "updated_at": "2026-11-03 15:43:41",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-11-03 15:30:57",
+      "nombre": "Pirate Shop Token",
+      "simbolo": "PIRATE"
+    },
+    {
+      "ts": "2026-11-03 15:30:56",
+      "nombre": "ビワくん",
+      "simbolo": "Biwa"
+    },
     {
       "ts": "2026-11-03 12:08:15",
       "nombre": "N███",
@@ -241,16 +251,6 @@
       "ts": "2026-10-23 17:04:37",
       "nombre": "Claude",
       "simbolo": "Claude AI"
-    },
-    {
-      "ts": "2026-10-23 15:16:23",
-      "nombre": "Trollface Chicken 67",
-      "simbolo": "TC67"
-    },
-    {
-      "ts": "2026-10-23 13:46:55",
-      "nombre": "Princess Robot Bubblegum",
-      "simbolo": "PRB"
     }
   ]
 }
