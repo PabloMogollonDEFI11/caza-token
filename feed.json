@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-03 19:21:55",
+  "updated_at": "2026-11-03 21:57:01",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-11-03 21:44:56",
+      "nombre": "Sexbot",
+      "simbolo": "sexbot"
+    },
     {
       "ts": "2026-11-03 19:09:02",
       "nombre": "Dacity Coin",
@@ -246,11 +251,6 @@
       "ts": "2026-10-24 01:49:30",
       "nombre": "GTA Online 6",
       "simbolo": "GTA6"
-    },
-    {
-      "ts": "2026-10-23 19:39:59",
-      "nombre": "שקל דיגיטלי",
-      "simbolo": "SHEKEL"
     }
   ]
 }
