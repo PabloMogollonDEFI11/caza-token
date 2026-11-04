@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-04 06:47:12",
+  "updated_at": "2026-11-04 08:58:22",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-11-04 08:46:09",
+      "nombre": "Transinu",
+      "simbolo": "Transinu"
+    },
     {
       "ts": "2026-11-04 06:34:33",
       "nombre": "Cum Processing Unit",
@@ -246,11 +251,6 @@
       "ts": "2026-10-24 05:40:03",
       "nombre": "ELON",
       "simbolo": "ELON"
-    },
-    {
-      "ts": "2026-10-24 04:33:11",
-      "nombre": "Claude",
-      "simbolo": "Claude AI"
     }
   ]
 }
