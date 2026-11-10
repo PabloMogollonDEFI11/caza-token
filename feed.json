@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-10 16:02:26",
+  "updated_at": "2026-11-10 16:07:30",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-11-10 15:55:05",
+      "nombre": "apeonx",
+      "simbolo": "X"
+    },
     {
       "ts": "2026-11-10 15:49:33",
       "nombre": "Privacy Cat",
@@ -246,11 +251,6 @@
       "ts": "2026-10-24 20:21:17",
       "nombre": "PigDeal",
       "simbolo": "PIGDEAL"
-    },
-    {
-      "ts": "2026-10-24 19:45:51",
-      "nombre": "OtterDacity",
-      "simbolo": "OTTERDAC"
     }
   ]
 }
