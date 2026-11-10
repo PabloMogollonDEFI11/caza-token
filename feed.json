@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-09 21:06:29",
+  "updated_at": "2026-11-10 05:21:44",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-11-10 05:09:29",
+      "nombre": "YouTube",
+      "simbolo": "YouTube"
+    },
     {
       "ts": "2026-11-09 20:54:26",
       "nombre": "The Sheep",
@@ -246,11 +251,6 @@
       "ts": "2026-10-24 14:51:25",
       "nombre": "Rockstar Games",
       "simbolo": "Rockstar"
-    },
-    {
-      "ts": "2026-10-24 14:31:44",
-      "nombre": "Pumpkin Bot",
-      "simbolo": "PumpkinBot"
     }
   ]
 }
