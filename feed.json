@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-11 04:38:08",
+  "updated_at": "2026-11-11 13:01:27",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-11-11 12:48:50",
+      "nombre": "ni hao dog",
+      "simbolo": "woohao"
+    },
     {
       "ts": "2026-11-11 04:25:41",
       "nombre": "Buzzcoin",
@@ -246,11 +251,6 @@
       "ts": "2026-10-25 08:42:01",
       "nombre": "THE MERGE",
       "simbolo": "MERGE"
-    },
-    {
-      "ts": "2026-10-25 03:30:24",
-      "nombre": "BMW",
-      "simbolo": "BMW"
     }
   ]
 }
