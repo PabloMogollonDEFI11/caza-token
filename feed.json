@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-11 18:01:12",
+  "updated_at": "2026-11-11 23:17:54",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-11-11 23:05:52",
+      "nombre": "Ni Hao Noon",
+      "simbolo": "NIHAONOON"
+    },
     {
       "ts": "2026-11-11 17:48:38",
       "nombre": "the eight wonder",
@@ -246,11 +251,6 @@
       "ts": "2026-10-25 12:58:56",
       "nombre": "Gigantic Tits Agency",
       "simbolo": "GTA"
-    },
-    {
-      "ts": "2026-10-25 11:45:33",
-      "nombre": "Sexy Peachy Cheeks Xposed",
-      "simbolo": "SPCX"
     }
   ]
 }
