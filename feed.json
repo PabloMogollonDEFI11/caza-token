@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-11 23:17:54",
+  "updated_at": "2026-11-12 03:20:03",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-11-12 03:08:01",
+      "nombre": "X Coin",
+      "simbolo": "X"
+    },
     {
       "ts": "2026-11-11 23:05:52",
       "nombre": "Ni Hao Noon",
@@ -246,11 +251,6 @@
       "ts": "2026-10-25 20:01:19",
       "nombre": "Curves And Kim Everywhere",
       "simbolo": "CAKE"
-    },
-    {
-      "ts": "2026-10-25 12:58:56",
-      "nombre": "Gigantic Tits Agency",
-      "simbolo": "GTA"
     }
   ]
 }
