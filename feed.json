@@ -1,7 +1,12 @@
 {
-  "updated_at": "2026-11-12 03:20:03",
+  "updated_at": "2026-11-12 15:31:12",
   "delay_min": 12,
   "detections": [
+    {
+      "ts": "2026-11-12 15:18:49",
+      "nombre": "Jensen Huang blackswan",
+      "simbolo": "blackswan"
+    },
     {
       "ts": "2026-11-12 03:08:01",
       "nombre": "X Coin",
@@ -246,11 +251,6 @@
       "ts": "2026-10-26 04:53:04",
       "nombre": "MIGHTY ZION ORANGE RANGER",
       "simbolo": "TRUMP"
-    },
-    {
-      "ts": "2026-10-25 20:01:19",
-      "nombre": "Curves And Kim Everywhere",
-      "simbolo": "CAKE"
     }
   ]
 }
